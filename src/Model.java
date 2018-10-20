@@ -1,3 +1,9 @@
+/*
+ * Diese Klasse ist nach dem MVC-Modell das Model und verarbeitet die Daten/Informationen
+ * 
+ * @author Jakob Laback
+ * @version 2018-10-20
+ */
 
 public class Model {
 	//Attribute

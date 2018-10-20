@@ -2,6 +2,14 @@ import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.*;
 
+
+/*
+ * Diese Klasse ist nach dem MVC-Modell das Panel und erstellt das Panel
+ * 
+ * @author Jakob Laback
+ * @version 2018-10-20
+ */
+
 public class Panel extends JPanel{
 	//Attribute
 	private Model m1;

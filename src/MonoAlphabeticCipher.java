@@ -1,5 +1,5 @@
 /*
- * This is the class which is saving the secretAlphabet
+ * This is the class which savesthe secretAlphabet
  * 
  * @author Jakob Laback
  * @version 2018-11-10

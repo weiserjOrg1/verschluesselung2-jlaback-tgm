@@ -1,5 +1,12 @@
 import java.awt.event.ActionEvent;
 
+/*
+ * Diese Klasse ist nach dem MVC-Modell der Controller und führt Actions aus
+ * 
+ * @author Jakob Laback
+ * @version 2018-10-20
+ */
+
 public class Controller {
 	//Attribute
 	private Model m1;

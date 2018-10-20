@@ -1,10 +1,19 @@
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
+
+
+/*
+ * Diese Klasse ist nach dem MVC-Modell die View und erstellt das Fenster
+ * 
+ * @author Jakob Laback
+ * @version 2018-10-20
+ */
 
 public class View extends JFrame{
 	
@@ -59,6 +68,36 @@ public class View extends JFrame{
 		
 		this.setVisible(true);
 		
+	}
+	
+	public boolean istVerschiebenT(ActionEvent e) {
+		if (e.getSource() == this.verschiebenT) return true;
+		return false;
+	}
+	
+	public boolean istVerschiebenB(ActionEvent e) {
+		if (e.getSource() == this.verschiebenT) return true;
+		return false;
+	}
+	
+	public boolean istEntschlüsselnT(ActionEvent e) {
+		if (e.getSource() == this.entschlüsselnT) return true;
+		return false;
+	}
+	
+	public boolean istEntschlüsselnB(ActionEvent e) {
+		if (e.getSource() == this.entschlüsselnB) return true;
+		return false;
+	}
+	
+	public boolean istVerschlüsselnT(ActionEvent e) {
+		if (e.getSource() == this.verschlüsselnT) return true;
+		return false;
+	}
+	
+	public boolean istVerschlüsselnB(ActionEvent e) {
+		if (e.getSource() == this.verschlüsselnB) return true;
+		return false;
 	}
 
 }

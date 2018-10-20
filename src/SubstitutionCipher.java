@@ -29,6 +29,7 @@ public class SubstitutionCipher extends MonoAlphabeticCipher{
 		try {
 		SubstitutionCipher sC = new SubstitutionCipher("QWERTZUIOPÜASDFGHJKLÖÄYXCVBNMß");
 		String temp = sC.encrypt("JAKOB");
+		Controller c1 = new Controller();
 		System.out.println(temp);
 		System.out.println(sC.decrypt(temp));
 		} catch(WrongAlphabetException e) {
